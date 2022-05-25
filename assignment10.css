@@ -3,6 +3,10 @@
     display: flex;
     color: midnightblue;
     height: 80px;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+    top: 0%;
 }
 .b{
     margin-right: 70%;
@@ -46,4 +50,14 @@ p{
 .f{
     margin-right: 30px;
     font-family: caveat;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: midnightblue;
 }
